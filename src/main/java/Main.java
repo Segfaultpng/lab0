@@ -20,7 +20,7 @@ public class Main {
         System.out.println("Please enter a name for your circle");
 
         Circle circle = new Circle(scanner.next());
-        System.out.println("Please enter the radius of your square");
+        System.out.println("Please enter the radius of your circle");
         circle.setDimensions(scanner.nextDouble());
 
         //add to array
